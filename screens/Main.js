@@ -168,7 +168,7 @@ export default class Main extends Component {
     if (hasCameraPermission === false) {
       return (
         <View style={styles.container}>
-          <Text>No access to camera</Text>
+          <Text>Sin acceso a la cámara</Text>
         </View>
       );
     }
@@ -181,7 +181,7 @@ export default class Main extends Component {
             source={require("../assets/appIcon.png")}
             style={styles.appIcon}
           />
-          <Text style={styles.appName}>Look Me....</Text>
+          <Text style={styles.appName}>Mira aquí...</Text>
         </View>
         <View style={styles.middleContainer}>
           <Camera
