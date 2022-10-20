@@ -232,7 +232,7 @@ export default class Main extends Component {
                     })
                   }
                 >
-                  <Text>{category}</Text>
+                  <Text>{categoría}</Text>
                 </TouchableOpacity>
               ))}
             </ScrollView>
